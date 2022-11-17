@@ -7,10 +7,4 @@
      }
  }
 
- function setup() {
-     var textInput;
-     textInput = document.getElementById('username');
-     textInput.focus();
-     textInput = document.getElementById('enviar');
- }
- window.addEventListener('load', setup, false);
+ 
