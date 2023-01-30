@@ -57,7 +57,12 @@
          text-align: left;
      }
  }
+#foto{
+width:80%;
+
+}
 #foto h1{
  color:#154;
  font-size:1.6rem;
+ 
 }
