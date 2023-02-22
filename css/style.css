@@ -1,4 +1,5 @@
   body {
+      padding: 0;
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -62,11 +63,30 @@
   }
   
   #foto {
-      width: 100%;
-      background-color: #333;
-      height: 800px;
-      border-radius: 0.6rem;
       margin-top: 100px;
+      width: 100%;
+      height: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  #foto table {
+      width: 60%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #0366b6;
+  }
+  
+  th {
+      background-color: rgb(114, 123, 118);
+      color: #fff;
+  }
+  
+  th,
+  td {
+      border: 1px solid #04aab6;
+      padding: 16px 16px;
   }
   
   #foto h1 {
@@ -77,17 +97,6 @@
   h2 {
       text-align: center;
       color: #000;
-  }
-  
-  .main {
-      width: 20%;
-      height: 600px;
-      padding: 10px 10px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #04AA6D;
-      border-radius: 0.4rem;
-      max-width: 500px;
   }
   
   @media (max-width:1200px) {
@@ -146,8 +155,7 @@
   #pie {
       width: 100%;
       height: 200px;
-      background-color: #04AA6D;
-      margin-top: 30px;
+      margin-top: 160px;
   }
   
   #pie span {
@@ -156,6 +164,10 @@
   }
   
   #pie #tube {
-      color: #fff;
+      color: #000;
       text-align: center;
+  }
+  
+  #pie #tube::first-line {
+      color: #04AA6D;
   }
