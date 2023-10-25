@@ -9,8 +9,9 @@
   .topnav {
       overflow: hidden;
       background-color: #04aab6;
-      position: sticky;
       position: -webkit-sticky;
+      position: sticky;
+       
       top: 0;
   }
   
@@ -67,7 +68,7 @@
   #foto {
       margin-top: 100px;
       width: 100%;
-      height: fit-content;
+       
       margin-left: auto;
       margin-right: auto;
   }
